@@ -1,5 +1,7 @@
-const morganSetup = require('./morganSetup');
+const morgan = require('./morganSetup');
+const defaultError = require('./defaultError');
 
 module.exports = {
-    morganSetup
+    morgan,
+    defaultError
 }
