@@ -9,7 +9,7 @@ morganLogger.token('statusColorised', (req, res) => {
         return colors.bgYellow.black(res.statusCode);
     }
     else if(res.statusCode >= 200){
-        return colors.green(res.statusCode);
+        return colors.bgGreen.white(res.statusCode);
     }
 })
 
