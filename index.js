@@ -6,7 +6,7 @@ const {PORT, DB_INFO} = process.env;
 
 console.log("App started");
 
-app.listen(3000, () => {
+app.listen(Number(PORT), () => {
     console.log("Server started on port " + PORT);
 });
 
