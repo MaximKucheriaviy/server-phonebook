@@ -1,4 +1,3 @@
-const { number } = require('joi');
 const { Contact } = require('../../models');
 
 const getAll = async (req, res, next) => {
